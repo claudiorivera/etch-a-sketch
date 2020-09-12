@@ -1,0 +1,30 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  margin: 1rem;
+}
+
+h1 {
+  margin: 1rem;
+  border-bottom: 0.1rem gray solid;
+}
+
+#appContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
