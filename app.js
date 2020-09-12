@@ -19,6 +19,7 @@ const makeGrid = (size) => {
   // Make the squares
   for (i = 0; i < size * size; i++) {
     const square = document.createElement("div");
+    square.classList.add("square");
     // Set the width and height to one fraction of the container size
     square.style.width = `${CONTAINER_SIZE / size}px`;
     square.style.height = square.style.width;
